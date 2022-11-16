@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Menu{
+    background-color: rgb(238,223,184);
+}
+#Menu ul{
+max-width: 600px;
+list-style: none;
+padding: 0px;
+background-color: rgb(238, 223, 184);
+}
+#Menu ul li{
+    display: inline-block;   
+    padding: 0px;
+}
+
+#Menu ul li a{ 
+    color: darkgoldenrod;
+    text-decoration: none ;
+    display: inline-block;
+    padding: 15px;
+    transition: background .3s;
+    margin-top: 0px;
+}
+#Menu ul li a:hover{
+    color: whitesmoke;
+}
+body{
+    background-color: white;
+    color: darkgoldenrod;
+    font-family: Arial;
+}
+.body .header{
+    background-color: black;
+}
+.logo{
+       color: black;
+    margin-top: 5px;
+    margin-left: 600px;
+    position: center;
+    max-width: 150px;
+}
+.musa{
+    color: darkgoldenrod;
+    position: static;
+    margin-left: 600px;
+}
+.boximg{
+    position: fixed;
+    right: 0;
+    bottom: -40px;
+}
+.reserva-logo{
+    position: absolute ;
+    padding: 0px 0px;
+    width: 100px;
+    color:rgb(238, 223, 184);
+    background: wheat;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+   }  
+   .reserva-logo a{
+    color: darkgoldenrod;
+    text-decoration: none ;
+    display: inline-block;
+    padding: 25px;
+    transition: background .3s;
+    margin-top: 0px;
+    margin-left: 0px;
+   } 
+   .reserva-logo a:hover{
+    transform: translate(5px);
+    color: whitesmoke;
+   }
+   .Imagem{
+    background: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .Descontos{
+    position: relative;
+   }
